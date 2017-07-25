@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <%= csrf_meta_tags %>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Financial institution">
+  <meta name="author" content="David Adafia">
+  <title>Jeppdavis</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    "/assets/grayscale.css" %>
+  <%= stylesheet_link_tag    "/assets/bootstrap.css" %>
+</head>
+<body>
+ <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="/homes/index">
+                     <span class="light">JEPP DAVIS</span>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <%= link_to 'ABOUT',homes_index_path %>
+                    </li>
+                    <li>
+                        <%= link_to 'SERVICES',services_index_path %>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+<%= yield %>
+
+ <!-- Footer -->
+    <footer class="text-center" id="contact">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-sm-4">
+                        <h3>Location</h3>
+                        <p>P.O.Box AN 16646
+                            <br>Accra North Ghana</p>
+                    </div>
+                    <div class="footer-col col-sm-4">
+                        <h3>Contact Us</h3>
+                        <p>0242911291
+                            <br>jeppdavis@gmail.com</p>
+                    </div>
+                    <div class="footer-col col-sm-4">
+                        <h3>Social Media</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Jepp Davis Limited 2017
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> 
+<%= javascript_include_tag "/assets/bootstrap.js" %>
+<%= javascript_include_tag "/assets/jquery.js" %>
+<%= javascript_include_tag "/assets/grayscale.js" %>
+</body>
+</html>
