@@ -125,7 +125,8 @@ a:focus {
 }
 
 header {
-  background: url(header.jpg) no-repeat bottom center scroll;
+  background-image: url(<%= asset_path 'header.jpg' %>) no-repeat bottom center scroll;
+
 }
 
 .intro {
