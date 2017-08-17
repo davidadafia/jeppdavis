@@ -110,7 +110,7 @@ a:focus {
     padding: 20px 0;
     border-bottom: none;
     letter-spacing: 1px;
-    background: #3f8cba;
+    background: #26408b;
     -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
@@ -277,15 +277,15 @@ ul.banner-social-buttons {
 }
 footer {
   color: white;
-  background-color: #3f8cba;
+  background-color: #26408b;
 }
 footer .footer-above {
   padding-top: 30px;
-  background-color: #3f8cba;
+  background-color: #26408b;
 }
 footer .footer-below {
   padding: 10px 0;
-  background-color: #1B5078;
+  background-color: #26408b;
 }
 footer p {
   margin: 0;
@@ -869,3 +869,17 @@ form .row:first-child .floating-label-form-group {
     padding: 0 100px 20px 20px;
   }
 }
+
+.google-maps {
+        position: relative;
+        padding-bottom: 35%; 
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
