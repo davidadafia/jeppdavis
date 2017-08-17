@@ -126,6 +126,10 @@ header {
   background: url(header.jpg) no-repeat bottom center scroll;
 }
 
+.header1 {
+  background: url(header1.jpg) no-repeat bottom center scroll;
+}
+
 .intro {
   display: table;
   width: 100%;
