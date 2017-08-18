@@ -113,14 +113,14 @@ a:focus {
     padding: 20px 0;
     border-bottom: none;
     letter-spacing: 1px;
-    background: #26408b;
+    background: #1b5078;
     -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
   }
   .navbar-custom.top-nav-collapse {
     padding: 0;
-    background: #1b1a4f;
+    background: #1b5078;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
@@ -284,15 +284,15 @@ ul.banner-social-buttons {
 }
 footer {
   color: white;
-  background-color: #26408b;
+  background-color: #1b5078;
 }
 footer .footer-above {
   padding-top: 30px;
-  background-color: #26408b;
+  background-color: #1b5078;
 }
 footer .footer-below {
   padding: 10px 0;
-  background-color: #26408b;
+  background-color: #1b5078;
 }
 footer p {
   margin: 0;
