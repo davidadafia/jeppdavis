@@ -85,6 +85,9 @@ a:focus {
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 10px;
 }
 .navbar-custom .nav li a:hover {
   color: rgba(255, 255, 255, 0.8);
@@ -117,7 +120,7 @@ a:focus {
   }
   .navbar-custom.top-nav-collapse {
     padding: 0;
-    background: #1b5078;
+    background: #1b1a4f;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
