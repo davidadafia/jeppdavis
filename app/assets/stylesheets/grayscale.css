@@ -1474,7 +1474,7 @@ h1.main,p.demos {
 @media (max-width: 768px) {
   .sp-container h2 {
   position: absolute;
-  top: 25%;
+  top: 37%;
   line-height: 50px;
   height: 50px;
   margin-top: -20px;
@@ -1496,7 +1496,7 @@ h1.main,p.demos {
 }
 
 .sp-container h2.frame-5 div {
-  font-size: 60px;
+  font-size: 80px;
   -webkit-animation: blurFadeIn 3s ease-in 12s backwards;
   -moz-animation: blurFadeIn 1s ease-in 12s backwards;
   -ms-animation: blurFadeIn 3s ease-in 12s backwards;
@@ -1513,7 +1513,7 @@ h1.main,p.demos {
   color: transparent;
   text-shadow: 0px 0px 1px #fff;
 }
-  
+
 }
 
 @media only screen and (max-width: 480px){
