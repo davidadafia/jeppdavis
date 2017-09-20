@@ -127,10 +127,8 @@ a:focus {
 
 
 
-.header0 {
+header {
   background: url(header.jpg) no-repeat bottom center scroll;
-  background-repeat:no-repeat;
-  background-size:cover;
 }
 
 .header1 {
@@ -139,8 +137,6 @@ a:focus {
 
 .header3 {
   background: url(header3.jpg) no-repeat bottom center scroll;
-  background-repeat:no-repeat;
-  background-size:cover;
 }
 
 
@@ -1120,7 +1116,6 @@ form .row:first-child .floating-label-form-group {
 
 
 
-
 @font-face {
   font-family: 'Electrolize';
   font-style: normal;
@@ -1299,7 +1294,7 @@ h1.main,p.demos {
   background: #85373b;
   color: #fff;
 }
-/**/
+
 @-webkit-keyframes blurFadeInOut{
   0%{
     opacity: 0;
@@ -1358,7 +1353,7 @@ h1.main,p.demos {
     -webkit-transform: scale(1) rotate(0deg);
   }
 }
-/**/
+
 @-moz-keyframes blurFadeInOut{
   0%{
     opacity: 0;
@@ -1412,7 +1407,6 @@ h1.main,p.demos {
     -moz-transform: scale(1) rotate(0deg);
   }
 }
-/**/
 @keyframes blurFadeInOut{
   0%{
     opacity: 0;
@@ -1570,7 +1564,7 @@ h1.main,p.demos {
 @media only screen and (max-width: 480px){
   .sp-container h2 {
   position: absolute;
-  top: 29%;
+  top: 19%;
   line-height: 50px;
   height: 50px;
   margin-top: -20px;
@@ -1585,7 +1579,7 @@ h1.main,p.demos {
 }
 
 .sp-container h2.frame-5 div {
-  font-size: 60px;
+  font-size: 40px;
    -webkit-animation: blurFadeIn 3s ease-in 0.4s backwards;
   -moz-animation: blurFadeIn 3s ease-in 0.4s backwards;
   -ms-animation: blurFadeIn 3s ease-in 0.4s backwards;
@@ -1646,7 +1640,7 @@ opacity:0;
 }
 
 
-.header0.intro {
+headr.intr {
 
 -webkit-animation-name: FadeInOut;
 -webkit-animation-timing-function: ease-in-out;
