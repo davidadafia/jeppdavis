@@ -5,70 +5,166 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Financial institution">
+  <meta name="description" content="KNUST ECONOMICS DEPARTMENT WEBSITE/WEB APPLICATION BY PASCOLOGY">
   <meta name="author" content="David Adafia">
-  <title>Jeppdavis</title>
+  <title>Jeep Davis Consult</title>
 
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= stylesheet_link_tag    "/assets/grayscale.css" %>
-  <%= stylesheet_link_tag    "/assets/bootstrap.css" %>
-  <%= stylesheet_link_tag    "/assets/font-awesome.css" %>
-</head>
-<body>
- <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" href="/homes/index">
-                     <span class="light"><img src="/assets/i.png", class="img-responsive"></span>
-                </a>
-            </div>
+  
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <%= link_to 'ABOUT',about_index_path %>
-                    </li>
-                    <li>
-                        <%= link_to 'SERVICES',services_index_path %>
-                    </li>
-                    <li>
-                        <%= link_to 'GET IN TOUCH',contact_index_path %>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+  <%= stylesheet_link_tag    "/assets/bootstrap.min.css" %>
+  <%= stylesheet_link_tag    "/assets/font-awesome.min.css" %>
+  <%= stylesheet_link_tag    "/assets/nivo-lightbox.css" %>
+  <%= stylesheet_link_tag    "/assets/default.css" %>
+  <%= stylesheet_link_tag    "/assets/owl.carousel.css" %>
+  <%= stylesheet_link_tag    "/assets/owl.theme.css" %>
+  <%= stylesheet_link_tag    "/assets/flexslider.css" %>
+  <%= stylesheet_link_tag    "/assets/animate.css" %>
+  <%= stylesheet_link_tag    "/assets/style.css" %>
+  <%= stylesheet_link_tag    "/assets/defaultc.css" %>
+  
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+
+  <!-- page loader -->
+  <div id="page-loader">
+    <div class="loader">
+      <div class="spinner">
+        <div class="spinner-container con1">
+          <div class="circle1"></div>
+          <div class="circle2"></div>
+          <div class="circle3"></div>
+          <div class="circle4"></div>
         </div>
-        <!-- /.container -->
+        <div class="spinner-container con2">
+          <div class="circle1"></div>
+          <div class="circle2"></div>
+          <div class="circle3"></div>
+          <div class="circle4"></div>
+        </div>
+        <div class="spinner-container con3">
+          <div class="circle1"></div>
+          <div class="circle2"></div>
+          <div class="circle3"></div>
+          <div class="circle4"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /page loader -->
+
+  <!-- Section: home video -->
+  <section id="intro" class="home-video text-light">
+    <div class="home-video-wrapper">
+
+      <div class="homevideo-container">
+        <div id="P1" class="bg-player" style="display:block; margin: auto; background: rgba(0,0,0,0.5)" data-property="{videoURL:'https://www.youtube.com/watch?v=iGpuQ0ioPrM',containment:'.homevideo-container', quality: '144p', showControls: false, autoPlay:true, mute:true, startAt:2, opacity:0.7, speed:0.5}"></div>
+      </div>
+      <div class="overlay">
+        <div class="text-center video-caption">
+          <div class="wow bounceInDown" data-wow-offset="0" data-wow-delay="0.8s">
+            <h1 class="big-heading font-light"><span id="js-rotating">Jeep Davis Consult, Ghana's leading business solutions provider, Grow your business with us. </span></h1>
+          </div>
+          <br>
+          <br>
+          <div class="wow bounceInUp" data-wow-offset="0" data-wow-delay="1s">
+            <div class="margintop-30">
+              <a href="#about" class="btn btn-blood" id="btn-scroll" style="color: black;">START HERE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /Section: intro -->
+
+
+  <!-- Navigation -->
+  <div id="navigation">
+    <nav class="navbar navbar-custom" role="navigation">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 mob-logo">
+            <div class="row">
+              <div class="site-logo">
+                <a href="#intro"><img src="/assets/logo.png"></a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-10 mob-menu">
+            <div class="row">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                                                <i class="fa fa-bars"></i>
+                                                </button>
+              </div>
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="menu">
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="active"><a href="#intro">Home</a></li>
+                  <li><a href="#about">About Us</a></li>
+                  <li><a href="#service">Services</a></li>
+                  <li><a href="#works">Works</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+              </div>
+              <!-- /.Navbar-collapse -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.container -->
     </nav>
+  </div>
+  <!-- /Navigation -->
 
 <%= yield %>
-
  <!-- Footer -->
-    <footer class="text-center" id="contact">
-        
-        <br>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        Copyright &copy; jepp davis Limited 2017
-                    </div>
-                </div>
+    <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+
+          <div class="text-center">
+            <a href="#intro" class="totop"><i class="pe-7s-angle-up pe-3x"></i></a>
+
+            <div style="display: horizontal">
+
+
+              <ul>
+                <a href="#" ><i class="fa fa-fw fa-facebook fa-3x"></i></a>
+                <a href="#" ><i class="fa fa-fw fa-twitter fa-3x"></i></a>
+                <a href="#" ><i class="fa fa-fw fa-instagram fa-3x"></i></a>
+              </ul>
+
             </div>
+            <p>&copy;Jeppdavis. All Rights Reserved</p>
+          </div>
         </div>
-    </footer> 
-<%= javascript_include_tag "/assets/bootstrap.js" %>
-<%= javascript_include_tag "/assets/jquery.js" %>
-<%= javascript_include_tag "/assets/grayscale.js" %>
+      </div>
+    </div>
+  </footer>
+<%= javascript_include_tag "/assets/jquery.min.js" %>
+<%= javascript_include_tag "/assets/bootstrap.min.js" %>
+<%= javascript_include_tag "/assets/jquery.sticky.js" %>
+<%= javascript_include_tag "/assets/slippry.min.js" %>
+<%= javascript_include_tag "/assets/jquery.flexslider-min.js" %>
+<%= javascript_include_tag "/assets/morphext.min.js" %>
+<%= javascript_include_tag "/assets/gmap.js" %>
+<%= javascript_include_tag "/assets/jquery.mb.YTPlayer.js" %>
+<%= javascript_include_tag "/assets/jquery.easing.min.js" %>
+<%= javascript_include_tag "/assets/jquery.scrollTo.js" %>
+<%= javascript_include_tag "/assets/jquery.appear.js" %>
+<%= javascript_include_tag "/assets/stellar.js" %>
+<%= javascript_include_tag "/assets/wow.min.js" %>
+<%= javascript_include_tag "/assets/owl.carousel.min.js" %>
+<%= javascript_include_tag "/assets/nivo-lightbox.min.js" %>
+<%= javascript_include_tag "/assets/jquery.nicescroll.min.js" %>
+<%= javascript_include_tag "/assets/custom.js" %>
+<%= javascript_include_tag "/assets/contactform.js" %>
 </body>
 </html>
